@@ -31,7 +31,7 @@ mongoose.connect(dbURL, mongooseOptions, (err) => {
 
 let redisURL = {
   hostname: 'redis-14003.c61.us-east-1-3.ec2.cloud.redislabs.com',
-  port: 14003,
+  port: '14003',
 };
 
 let redisPASS = 'QHzceFvdW32UQLQuKQQS8bKhyOrdHjtP';
