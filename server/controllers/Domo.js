@@ -8,7 +8,7 @@ const makerPage = (req, res) => {
       console.log(err);
       return res.status(400).json({ error: 'An error occured (line 9 controllers/Domo.js)' });
     }
-    return res.render('app', { csrfToken: req.csrfToken(), domos: docs});
+    return res.render('app', { csrfToken: req.csrfToken(), domos: docs });
   });
 };
 
